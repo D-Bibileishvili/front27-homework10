@@ -40,3 +40,11 @@ form {
   flex-direction: column;
   row-gap: 40px;
 }
+
+button {
+  width: 151px;
+  height: 55px;
+  margin-top: 40px;
+  color: #171717;
+  border-radius: 50px;
+}
