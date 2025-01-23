@@ -13,9 +13,30 @@
 
 .section-wrapper {
   display: flex;
+  margin-top: 50px;
+  background-color: #0a22f4;
+  justify-content: space-around;
+}
+
+.contact {
+  max-width: 463px;
+  margin-top: 275px;
+  color: white;
+}
+
+label,
+p {
+  font-size: 16px;
+  color: white;
 }
 
 form {
   max-width: 463px;
   margin: 100px auto;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
 }
